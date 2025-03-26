@@ -60,15 +60,15 @@ The project is organized into Terraform modules:
 
 5. Apply the configuration:
    ```bash
-   terraform validate
-   terraform plan
    terraform apply
    ```
 
 6. Type `yes` to confirm and apply the changes.
 
    ![terraform apply](./terraform_apply.PNG)
+   
  ![website image](./wesbite.PNG)
+ 
 ![website image](./website2.PNG)
 
 
