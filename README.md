@@ -1,4 +1,4 @@
-# Project README: Terraform AWS Workshop
+# Project: Terraform AWS Workshop
 
 ## Introduction
 
