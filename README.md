@@ -26,6 +26,8 @@ Instead of using a single main.tf file, I've refactored the Terraform project in
 The project is organized into Terraform modules:
 
 
+![terraform module structure](./terraform_modules.PNG)
+
 
 ## Getting Started
 
@@ -49,12 +51,26 @@ The project is organized into Terraform modules:
    terraform init
    ```
 
-4. Apply the configuration:
+4. Validate and plan:
    ```bash
+   terraform validate
+   terraform plan
+   ```
+    ![terraform apply](./terraform_plan.PNG)
+
+5. Apply the configuration:
+   ```bash
+   terraform validate
+   terraform plan
    terraform apply
    ```
 
-5. Type `yes` to confirm and apply the changes.
+6. Type `yes` to confirm and apply the changes.
+
+   ![terraform apply](./terraform_apply.PNG)
+ ![website image](./wesbite.PNG)
+![website image](./website2.PNG)
+
 
 ### Clean Up
 
@@ -63,6 +79,10 @@ To remove the created resources, run:
 ```bash
 terraform destroy
 ```
+
+![terraform destroy](./terraform_destroy.PNG)
+
+
 
 ## Conclusion
 
